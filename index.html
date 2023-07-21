@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="icon" href="/images/iconGoogle.png">
+        <title>Google</title>
+    </head>
+    <body>
+        <!--Encabezado. contiene elementos de enecabezado (navegacion)-->
+        <header> <!--Elemento padre-->
+            <nav> <!--Elemento hijo-->
+                <ul class="nav-right-section"> <!-- Lista no ordenada -->
+                    <li><a href="https://mail.google.com/mail/u/1/?pli=1#inbox">Gmail</a></li>
+                    <li><a href="https://www.google.com/imghp?hl=es&authuser=0&ogbl">imagenes</a></li>
+                    <li class="menu"><a href="http://"></a></li>
+                    <li ><a href="http://"><img src="https://lh3.googleusercontent.com/ogw/AGvuzYY1otLoaeHEv9-YCVsvr4VqZLc5QBx1Wl9BCM8OfA=s32-c-mo"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Elmento MAIN -- mas importante-->
+        <main>
+            <!--Seccion Logo-->
+            <section class="main-logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+            </section>
+            <!--Buscador/input-->
+            <section class="main-input">
+                <!--Caja gris redondeada-->
+                <div class="main-input-container">
+                    <!--Icono de busqueda-->
+                    <span class="search-icon"></span>
+                    <!--Caja de texto input-->
+                    <input type="text">
+                    <!--Icono de microfono-->
+                    <a class="micro-icon" href=""></a>
+                    <!--Icono de camara-->
+                    <a class="cam-icon" href="http://"></a>
+                </div>
+            </section>
+            <!--Botones-->
+            <section class="main-buttons">
+                <div>
+                    <button>Buscar con Google</button>
+                </div>
+                <div>
+                    <button>Voy a tener suerte</button>
+                </div>
+            </section>
+        </main>
+        <!--Footer-->
+        <footer>
+            <p>México</p>
+            <hr>
+            <div class="footer-container">
+                <ul class="footer-left">
+                    <li><a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
+                    <li><a href="https://ads.google.com/intl/es_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
+                    <li><a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
+                </ul>
+                <ul class="footer-right">
+                    <li><a href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a></li>
+                    <li><a href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a></li>
+                    <li class="relative"><a href="#" onclick="togglePreferences();">Preferencias</a>
+                        <ul id = "menu-preferences" class="relative-list hide">
+                            <li><a>Configuración de busqueda</a></li>
+                            <li><a>Búsqueda avanzada</a></li>
+                            <li><a>Tus datos en la búsqueda</a></li>
+                            <li><a>Historial de búsqueda</a></li>
+                            <li><a>Buscar en ayuda</a></li>
+                            <li><a>Enviar comentarios</a></li>
+                            <hr>
+                            <li class="relative-list-dark"><a>Tema oscuro</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            function togglePreferences(){
+                document.getElementById("menu-preferences").classList.toggle("hide"); 
+            }
+        </script>
+    </body>
+</html>
