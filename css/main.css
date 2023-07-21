@@ -234,7 +234,7 @@ footer .footer-right a:hover{
     display: block;
     margin: 0px;
     text-align: left;
-    padding: 4px 16px;
+    padding: 4px 15px;
     white-space: nowrap;
     line-height: 20px;
     font-size: 14px;
@@ -242,9 +242,23 @@ footer .footer-right a:hover{
     cursor: pointer;
 }
 
+.footer-right .relative .relative-list .icon-visible{
+    width: 18x;
+    height: 18px;
+}
+
+
+.footer-right .relative .relative-list .icon-visible{
+    visibility: hidden;
+}
+
 .footer-right .relative .relative-list a:hover{
     text-decoration: none;
     background-color: #dadce0;
+}
+
+.footer-right .relative .relative-list .relative-list-dark:hover .icon-visible{
+    visibility: visible;
 }
 
 .footer-right .relative .relative-list .relative-list-dark{
