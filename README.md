@@ -10,7 +10,7 @@ Se construyó una copia de la página de google, utilizando los lenguajes mencio
 HTML5 para la estructura de la pagina (siguiendo la estructura general de una página web), y CSS3  para el estilo de 
 la página. 
 
-## Objetivos 🎯
+## Objetivo 🎯
 Poner en **práctica** los **elementos** y **propiedades** de HTML5 y CSS3. 
 
 ## Elementos de la página 🧑🏽‍💻
